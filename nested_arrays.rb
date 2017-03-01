@@ -35,7 +35,7 @@ table = [
   ["Rodigo García", 13, "Masculino", "Primero", [9, 9, 7, 6, 8]],
   ["Fernanda González", 12, "Femenino", "Tercero", [6, 9, 8, 6, 8]],
   ["Luis Pérez", 13, "Masculino", "Primero", [8, 7, 7, 9, 8]],
-  ["Ana Espinosa", 14, "Femenino", "Segundi", [9, 9, 6, 8, 8]],
+  ["Ana Espinosa", 14, "Femenino", "Segundo", [9, 9, 6, 8, 8]],
   ["Pablo Morán", 11, "Masculino", "Segundo", [7, 8, 9, 9, 8]],
 ]
 
