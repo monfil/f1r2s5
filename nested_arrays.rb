@@ -29,6 +29,24 @@ def chess
     p "-" * largo
 end
 
+def gato
+  gato = [ ["X", "X", "O"],
+         ["O", "X", "O"],
+         ["O", "O", "X"] ]
+  line = ""
+    for r in 0..2
+      for c in 0..2
+        line += "| #{gato[r][c]} " + largo(gato[r][c])
+        c += 1
+      end
+      largo = line.length + 2
+      p line + " |"
+      p "-" * largo
+      r += 1
+      line = ""
+    end
+end
+
 
 table = [
   ["Nombre", "Edad", "Género", "Grupo", "Calificaciones"],
@@ -40,6 +58,7 @@ table = [
 ]
 
 chess
+gato
 
 p table[0][4]  == "Calificaciones"
 p table[2][1]  == 12
