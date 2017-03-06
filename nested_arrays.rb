@@ -3,31 +3,7 @@
     s = " " * valor
   end 
 
-def chess
-  tablero = [
-    ["Torre-N", "Caballo-N", "Alfil-N", "Reina-N","Rey-N", "Alfil-N", "Caballo-N", "Torre-N"],
-    ["Peón-N", "Peón-N", "Peón-N", "Peón-N", "Peón-N", "Peón-N", "Peón-N", "Peón-N"],
-    ["Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro"],
-    ["Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco"],
-    ["Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro"],
-    ["Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco", "Negro", "Blanco"],
-    ["Peón-B", "Peón-B", "Peón-B", "Peón-B", "Peón-B", "Peón-B", "Peón-B", "Peón-B"],
-    ["Torre-B", "Caballo-B", "Alfil-B", "Reina-B", "Rey-B", "Alfil-B", "Caballo-B", "Torre-B"],
-    ]
-    line = ""
-    for r in 0..7
-      for c in 0..7
-        line += "| #{tablero[r][c]} " + largo(tablero[r][c])
-        c += 1
-      end
-      largo = line.length + 2
-      p "-" * largo
-      p line + " |"
-      r += 1
-      line = ""
-    end
-    p "-" * largo
-end
+
 
 def gato
   gato = [ ["X", "X", "O"],
